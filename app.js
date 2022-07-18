@@ -2,7 +2,7 @@ import express from 'express'
 import transporter from "./Manager/contenedor.js"
 //const manager  = new Manager();
 const app = express()
-const PORT = process.env.PROT || 8080;
+const PORT = process.env.PORT || 8080;
 
 
 const server = app.listen(PORT,()=>{
